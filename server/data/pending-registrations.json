@@ -1,0 +1,66 @@
+[
+  {
+    "username": "test",
+    "password": "$2b$10$iVAT0ii3rZWQJXJUGpL40.V8b4nchRNeHk6.sOM/3fDICEtl81MFG",
+    "discordUsername": "test",
+    "status": "pending",
+    "createdAt": "2025-02-11T00:01:23.651Z",
+    "id": "1739232083651"
+  },
+  {
+    "username": "test",
+    "password": "$2b$10$hVK6xXcnNQAVP9BcMbKGF.RvcCvrElWXXhTC5SNP7tnMy663fsr8i",
+    "discordUsername": "test",
+    "status": "pending",
+    "createdAt": "2025-02-11T00:01:29.652Z",
+    "id": "1739232089652"
+  },
+  {
+    "username": "test",
+    "password": "$2b$10$1bXhPq6i.FRhZWjFZvr4qekGhl3tKnkMwtDA//d.CesfzBnlHCjWK",
+    "discordUsername": "test",
+    "status": "pending",
+    "createdAt": "2025-02-11T00:02:29.283Z",
+    "id": "1739232149283"
+  },
+  {
+    "username": "test",
+    "password": "$2b$10$8HD/PF4Zj63VyluXsbkEJOBrG8Us8QnrBeSBfmpefzAe.UtAKtFne",
+    "discordUsername": "test",
+    "status": "pending",
+    "createdAt": "2025-02-11T00:02:30.411Z",
+    "id": "1739232150411"
+  },
+  {
+    "username": "test",
+    "password": "$2b$10$KaTBNwVZfUxiBQezHxNd7.naT0QqcjnMKPjpsmZXKvKHTvdmpEF2G",
+    "discordUsername": "test",
+    "status": "pending",
+    "createdAt": "2025-02-11T00:02:37.747Z",
+    "id": "1739232157747"
+  },
+  {
+    "username": "test",
+    "password": "$2b$10$m7W4bqOl8jq75WJFGrUuze.Qs5syT2AD1sbtEL46xJg/Oguk9IXKK",
+    "discordUsername": "test",
+    "status": "pending",
+    "createdAt": "2025-02-11T00:06:15.766Z",
+    "id": "1739232375766"
+  },
+  {
+    "username": "test",
+    "password": "$2b$10$UHLduFrW7Xfs6WUO2tdv2.2Z8ffARFaJVeJZyGNqq/avQgre1GIbi",
+    "discordUsername": "test",
+    "status": "pending",
+    "createdAt": "2025-02-11T00:06:16.260Z",
+    "id": "1739232376260"
+  },
+  {
+    "username": "awd",
+    "password": "$2b$10$rnHLPdEk07fHyPj5gLXTueTjEniZL9O3o95BArtcpCkvS6o8eW6ni",
+    "discordUsername": "awd",
+    "status": "pending",
+    "createdAt": "2025-02-12T00:10:04.001Z",
+    "id": "1739319004001"
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "id": 1,
+    "username": "Griffin671992",
+    "password": "$2b$10$XqYlUsmEVp7HGRmldjYyRe9GQnBtzl7zF/rWs./NeWsAzU6bnYkBa",
+    "rank": "CIC",
+    "role": "Commander in Chief",
+    "permissions": [
+      "ADMIN",
+      "COMMAND",
+      "ALL"
+    ],
+    "commandAccess": true,
+    "isAdmin": true,
+    "avatarUrl": "https://api.dicebear.com/7.x/avatars/svg?seed=Griffin671992",
+    "createdAt": "2025-02-10T23:41:19.112Z",
+    "updatedAt": "2025-02-10T23:41:19.113Z"
+  },
+  {
+    "id": 2,
+    "username": "test",
+    "password": "$2b$10$oeV121rPERCtRWR3m0lg8uQtZSVqFhsVTQhqpqW2cuKPU57J4C2S.",
+    "rank": "E-1",
+    "role": "Member",
+    "permissions": [
+      "MEMBER"
+    ],
+    "commandAccess": false,
+    "isAdmin": false,
+    "avatarUrl": "https://api.dicebear.com/7.x/avatars/svg?seed=test",
+    "createdAt": "2025-02-11T00:06:48.832Z",
+    "updatedAt": "2025-02-11T00:06:48.832Z"
+  },
+  {
+    "id": 3,
+    "username": "test1",
+    "password": "$2b$10$kezr2gojnpZr0Btm0LI7feyKuAgeTr8gn8Aa.CuTJETBXGq7cUFCO",
+    "rank": "E-1",
+    "role": "Member",
+    "permissions": [
+      "MEMBER"
+    ],
+    "commandAccess": false,
+    "isAdmin": false,
+    "avatarUrl": "https://api.dicebear.com/7.x/avatars/svg?seed=test1",
+    "createdAt": "2025-02-11T00:07:53.535Z",
+    "updatedAt": "2025-02-11T00:07:53.535Z"
+  },
+  {
+    "id": 4,
+    "username": "test2",
+    "password": "$2b$10$OYV52MZVkbXO627993IJue7dGw6t95qMjmbM71zItC1P3zflsk2HG",
+    "rank": "E-1",
+    "role": "Member",
+    "permissions": [
+      "MEMBER"
+    ],
+    "commandAccess": false,
+    "isAdmin": false,
+    "avatarUrl": "https://api.dicebear.com/7.x/avatars/svg?seed=test2",
+    "createdAt": "2025-02-11T00:08:25.167Z",
+    "updatedAt": "2025-02-11T00:08:25.167Z"
+  },
+  {
+    "id": 5,
+    "username": "test3",
+    "password": "$2b$10$D7pjdeak2UuSHwlEYQOVJeijSYGJYerXybKJ1L4QIi9cE.PGz5vNG",
+    "rank": "E-1",
+    "role": "Member",
+    "permissions": [
+      "MEMBER"
+    ],
+    "commandAccess": false,
+    "isAdmin": false,
+    "avatarUrl": "https://api.dicebear.com/7.x/avatars/svg?seed=test3",
+    "createdAt": "2025-02-11T00:09:16.550Z",
+    "updatedAt": "2025-02-11T00:09:16.550Z"
+  },
+  {
+    "id": 6,
+    "username": "test123",
+    "password": "$2b$10$6CYCQ7jNyALfYmn/l3RVFe5nZicQKSjRSRlT795yzFC.IiUeVihaa",
+    "rank": "E-1",
+    "role": "Member",
+    "permissions": [
+      "MEMBER"
+    ],
+    "commandAccess": false,
+    "isAdmin": false,
+    "avatarUrl": "https://api.dicebear.com/7.x/avatars/svg?seed=test123",
+    "createdAt": "2025-02-11T00:13:46.579Z",
+    "updatedAt": "2025-02-11T00:13:46.579Z"
+  },
+  {
+    "id": 7,
+    "username": "test44",
+    "password": "$2b$10$lXQCUCLXMnnKVJ5hmPZ2/unJrk.PEVCgAcD7oWjN6JI6ROEWZI8OS",
+    "rank": "E-1",
+    "role": "Member",
+    "permissions": [
+      "MEMBER"
+    ],
+    "commandAccess": false,
+    "isAdmin": false,
+    "avatarUrl": "https://api.dicebear.com/7.x/avatars/svg?seed=test44",
+    "createdAt": "2025-02-11T00:17:39.185Z",
+    "updatedAt": "2025-02-11T00:17:39.185Z"
+  },
+  {
+    "id": 8,
+    "username": "test231",
+    "password": "$2b$10$OyjjzdTScYs0VNiJu7HvG.bp531m2qczYjMrDEEygMN7jaG75hAZW",
+    "rank": "E-3",
+    "role": "Member",
+    "permissions": [
+      "MEMBER"
+    ],
+    "commandAccess": false,
+    "isAdmin": false,
+    "avatarUrl": "https://api.dicebear.com/7.x/avatars/svg?seed=test231",
+    "createdAt": "2025-02-11T00:18:29.403Z",
+    "updatedAt": "2025-02-11T00:41:25.757Z"
+  },
+  {
+    "id": 9,
+    "username": "test343",
+    "password": "$2b$10$1XdC/u2VfRKy1Rt9Ej7cCeE8mNpLeFvyvixL3ywUcDXlmfa4U/xx.",
+    "rank": "E-1",
+    "role": "Member",
+    "permissions": [
+      "MEMBER"
+    ],
+    "commandAccess": false,
+    "isAdmin": false,
+    "avatarUrl": "https://api.dicebear.com/7.x/avatars/svg?seed=test343",
+    "createdAt": "2025-02-11T23:30:44.207Z",
+    "updatedAt": "2025-02-11T23:30:44.207Z"
+  },
+  {
+    "id": 10,
+    "username": "testtest",
+    "password": "$2b$10$SnamfVFxrMFYuKiKZgiIyOcgQHXpp5jfY48HbMwLR7N1FvH47DB1i",
+    "rank": "E-1",
+    "role": "Member",
+    "permissions": [
+      "MEMBER"
+    ],
+    "commandAccess": false,
+    "isAdmin": false,
+    "avatarUrl": "https://api.dicebear.com/7.x/avatars/svg?seed=testtest",
+    "createdAt": "2025-02-11T23:41:32.100Z",
+    "updatedAt": "2025-02-11T23:41:32.100Z"
+  },
+  {
+    "id": 11,
+    "username": "testtesttest",
+    "password": "$2b$10$uOcrmhPHXyruh8/2eBUxj.NQrI/QrGXK5s3UyyiAmUfs8.STnbk12",
+    "rank": "E-1",
+    "role": "Member",
+    "permissions": [
+      "MEMBER"
+    ],
+    "commandAccess": false,
+    "isAdmin": false,
+    "avatarUrl": "https://api.dicebear.com/7.x/avatars/svg?seed=testtesttest",
+    "createdAt": "2025-02-11T23:45:17.796Z",
+    "updatedAt": "2025-02-11T23:45:17.796Z"
+  },
+  {
+    "id": 12,
+    "username": "testtesttest2-042304820394823",
+    "password": "$2b$10$2cYLtGWRUJkr74nLao8YDugs3YiZ76P/Bac/wmkEt6Mld1Z4WP97W",
+    "rank": "E-1",
+    "role": "Member",
+    "permissions": [
+      "MEMBER"
+    ],
+    "commandAccess": false,
+    "isAdmin": false,
+    "avatarUrl": "https://api.dicebear.com/7.x/avatars/svg?seed=testtesttest2-042304820394823",
+    "createdAt": "2025-02-11T23:58:54.787Z",
+    "updatedAt": "2025-02-11T23:58:54.787Z"
+  }
+]

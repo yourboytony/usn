@@ -1,0 +1,16 @@
+usn-management/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── auth/
+│   │   ├── dashboard/
+│   │   ├── orbat/
+│   │   ├── profiles/
+│   │   └── tickets/
+│   ├── layouts/
+│   ├── router/
+│   ├── stores/
+│   ├── services/
+│   └── views/
+├── .env
+└── package.json 

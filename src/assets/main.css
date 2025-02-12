@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-navy-900 text-gray-100;
+  }
+}
+
+@layer components {
+  .font-military {
+    font-family: 'Industry', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Add any other custom styles here */ 

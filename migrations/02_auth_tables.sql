@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS users (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  username TEXT UNIQUE NOT NULL,
+  password_hash TEXT NOT NULL,
+  discord_username TEXT NOT NULL,
+  rank TEXT DEFAULT 'SEAMAN',
+  role TEXT DEFAULT 'RECRUIT',
+  status TEXT DEFAULT 'PENDING',
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX idx_users_username ON users(username); 

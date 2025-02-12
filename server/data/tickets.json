@@ -1,0 +1,15 @@
+[
+  {
+    "id": "ticket-1",
+    "title": "System Access Request",
+    "description": "Request for additional system permissions",
+    "status": "OPEN",
+    "priority": "MEDIUM",
+    "category": "ACCESS",
+    "creator": "test231",
+    "assignee": null,
+    "comments": [],
+    "createdAt": "2025-02-11T00:41:25.757Z",
+    "updatedAt": "2025-02-11T00:41:25.757Z"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "branches": [
+    {
+      "id": "navy",
+      "name": "United States Navy",
+      "units": [
+        {
+          "id": "fleet1",
+          "name": "1st Fleet",
+          "commander": "Griffin671992",
+          "personnel": [],
+          "subUnits": [
+            {
+              "id": "div1",
+              "name": "1st Division",
+              "commander": null,
+              "personnel": []
+            },
+            {
+              "id": "div2",
+              "name": "2nd Division",
+              "commander": null,
+              "personnel": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ranks": {
+    "enlisted": [
+      "E-1", "E-2", "E-3", "E-4", "E-5", "E-6", "E-7", "E-8", "E-9"
+    ],
+    "officers": [
+      "O-1", "O-2", "O-3", "O-4", "O-5", "O-6", "O-7", "O-8", "O-9", "O-10"
+    ],
+    "special": [
+      "FADM", "CNO", "SECNAV", "CIC"
+    ]
+  }
+} 

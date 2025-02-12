@@ -1,0 +1,14 @@
+{
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "System Launch",
+      "content": "Welcome to the new Naval Management System",
+      "author": "Griffin671992",
+      "type": "SYSTEM",
+      "priority": "HIGH",
+      "createdAt": "2025-02-10T23:41:19.112Z",
+      "updatedAt": "2025-02-10T23:41:19.112Z"
+    }
+  ]
+} 

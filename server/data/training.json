@@ -1,0 +1,192 @@
+{
+  "courses": [
+    {
+      "id": "basic-training",
+      "name": "Basic Military Training",
+      "description": "Essential training for all new naval personnel covering military discipline, physical fitness, and basic seamanship",
+      "requirements": [],
+      "duration": "8 weeks",
+      "instructor": "Griffin671992",
+      "maxParticipants": 30,
+      "status": "active",
+      "sessions": []
+    },
+    {
+      "id": "damage-control",
+      "name": "Basic Damage Control",
+      "description": "Fundamental damage control procedures, firefighting, and emergency response training",
+      "requirements": ["basic-training"],
+      "duration": "2 weeks",
+      "instructor": null,
+      "maxParticipants": 20,
+      "status": "active",
+      "sessions": []
+    },
+    {
+      "id": "seamanship",
+      "name": "Basic Seamanship",
+      "description": "Core naval skills including navigation, deck operations, and ship handling",
+      "requirements": ["basic-training"],
+      "duration": "4 weeks",
+      "instructor": null,
+      "maxParticipants": 25,
+      "status": "active",
+      "sessions": []
+    },
+    {
+      "id": "combat-training",
+      "name": "Naval Combat Operations",
+      "description": "Advanced combat tactics, weapons systems, and battle procedures",
+      "requirements": ["basic-training", "seamanship"],
+      "duration": "6 weeks",
+      "instructor": null,
+      "maxParticipants": 15,
+      "status": "active",
+      "sessions": []
+    },
+    {
+      "id": "engineering-basic",
+      "name": "Basic Engineering Systems",
+      "description": "Introduction to naval engineering, mechanical systems, and basic maintenance",
+      "requirements": ["basic-training"],
+      "duration": "6 weeks",
+      "instructor": null,
+      "maxParticipants": 20,
+      "status": "active",
+      "sessions": []
+    },
+    {
+      "id": "communications",
+      "name": "Naval Communications",
+      "description": "Radio operations, signal procedures, and tactical communications",
+      "requirements": ["basic-training"],
+      "duration": "3 weeks",
+      "instructor": null,
+      "maxParticipants": 15,
+      "status": "active",
+      "sessions": []
+    },
+    {
+      "id": "medical-first-responder",
+      "name": "Medical First Responder",
+      "description": "Emergency medical care, first aid, and casualty response",
+      "requirements": ["basic-training"],
+      "duration": "2 weeks",
+      "instructor": null,
+      "maxParticipants": 20,
+      "status": "active",
+      "sessions": []
+    },
+    {
+      "id": "leadership-basic",
+      "name": "Basic Leadership",
+      "description": "Fundamental leadership skills, team management, and command principles",
+      "requirements": ["basic-training"],
+      "duration": "3 weeks",
+      "instructor": null,
+      "maxParticipants": 25,
+      "status": "active",
+      "sessions": []
+    },
+    {
+      "id": "advanced-engineering",
+      "name": "Advanced Engineering Systems",
+      "description": "Advanced ship systems, propulsion, and complex maintenance procedures",
+      "requirements": ["engineering-basic"],
+      "duration": "8 weeks",
+      "instructor": null,
+      "maxParticipants": 15,
+      "status": "active",
+      "sessions": []
+    },
+    {
+      "id": "advanced-combat-tactics",
+      "name": "Advanced Combat Tactics",
+      "description": "Strategic combat operations, advanced weapons systems, and battle command",
+      "requirements": ["combat-training"],
+      "duration": "6 weeks",
+      "instructor": null,
+      "maxParticipants": 12,
+      "status": "active",
+      "sessions": []
+    },
+    {
+      "id": "advanced-damage-control",
+      "name": "Advanced Damage Control",
+      "description": "Complex damage control scenarios, advanced firefighting, and emergency management",
+      "requirements": ["damage-control"],
+      "duration": "4 weeks",
+      "instructor": null,
+      "maxParticipants": 15,
+      "status": "active",
+      "sessions": []
+    },
+    {
+      "id": "navigation-advanced",
+      "name": "Advanced Navigation",
+      "description": "Advanced navigation techniques, electronic systems, and tactical maneuvering",
+      "requirements": ["seamanship"],
+      "duration": "5 weeks",
+      "instructor": null,
+      "maxParticipants": 15,
+      "status": "active",
+      "sessions": []
+    },
+    {
+      "id": "leadership-advanced",
+      "name": "Advanced Leadership",
+      "description": "Strategic leadership, organizational management, and advanced command responsibilities",
+      "requirements": ["leadership-basic"],
+      "duration": "4 weeks",
+      "instructor": null,
+      "maxParticipants": 20,
+      "status": "active",
+      "sessions": []
+    },
+    {
+      "id": "special-operations",
+      "name": "Special Operations Training",
+      "description": "Advanced tactical operations, specialized combat techniques, and covert missions",
+      "requirements": ["advanced-combat-tactics", "advanced-navigation"],
+      "duration": "12 weeks",
+      "instructor": null,
+      "maxParticipants": 10,
+      "status": "active",
+      "sessions": []
+    }
+  ],
+  "sessions": [],
+  "certifications": [
+    {
+      "id": "basic-qual",
+      "name": "Basic Naval Qualification",
+      "requirements": ["basic-training", "damage-control", "seamanship"],
+      "description": "Standard qualification for all naval personnel"
+    },
+    {
+      "id": "combat-qual",
+      "name": "Combat Operations Qualification",
+      "requirements": ["combat-training", "communications"],
+      "description": "Combat readiness certification"
+    },
+    {
+      "id": "engineering-qual",
+      "name": "Engineering Systems Qualification",
+      "requirements": ["engineering-basic", "damage-control"],
+      "description": "Basic engineering systems certification"
+    },
+    {
+      "id": "medical-qual",
+      "name": "Medical Response Qualification",
+      "requirements": ["medical-first-responder"],
+      "description": "Medical response certification"
+    },
+    {
+      "id": "leadership-qual",
+      "name": "Leadership Qualification",
+      "requirements": ["leadership-basic", "communications"],
+      "description": "Basic leadership certification"
+    }
+  ],
+  "enrollments": []
+} 

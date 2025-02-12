@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "id": "event-1",
+      "title": "Weekly Briefing",
+      "description": "Regular status update and planning meeting",
+      "startDate": "2025-02-17T14:00:00.000Z",
+      "endDate": "2025-02-17T15:00:00.000Z",
+      "location": "Main Bridge",
+      "organizer": "Griffin671992",
+      "attendees": [],
+      "type": "BRIEFING",
+      "status": "SCHEDULED",
+      "createdAt": "2025-02-11T00:41:25.757Z",
+      "updatedAt": "2025-02-11T00:41:25.757Z"
+    }
+  ]
+} 
