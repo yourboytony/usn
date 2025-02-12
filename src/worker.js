@@ -12,11 +12,13 @@ class Database {
     if (!env.DB) {
       throw new Error('Database binding not found');
     }
+    console.log('Database binding found:', env.DB); // Debug log
     this.db = env.DB;
   }
 
   async query(sql, params = []) {
     try {
+      console.log('Executing query:', sql, 'with params:', params); // Debug log
       const stmt = this.db.prepare(sql);
       return params.length > 0 ? await stmt.bind(...params).all() : await stmt.all();
     } catch (error) {
@@ -37,6 +39,22 @@ export default {
     try {
       const url = new URL(request.url);
       
+      // Add a test endpoint
+      if (url.pathname === '/api/test-db') {
+        const db = new Database(env);
+        const result = await db.query('SELECT name FROM sqlite_master WHERE type="table"');
+        return new Response(
+          JSON.stringify({ 
+            tables: result,
+            dbInfo: {
+              binding: !!env.DB,
+              name: env.DB ? 'usn_db' : null
+            }
+          }),
+          { headers: { 'Content-Type': 'application/json', ...corsHeaders } }
+        );
+      }
+
       // Add a health check endpoint
       if (url.pathname === '/api/health') {
         console.log('Environment:', env); // Debug log

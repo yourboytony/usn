@@ -6,7 +6,7 @@ compatibility_date = "2024-02-12"
 [[d1_databases]]
 binding = "DB"
 database_name = "usn_db"
-database_id = "82691be5-6bce-494a-85b8-7c5fb3aa9638"
+database_id = "d879044b-dba8-4b50-b7be-55b0fb4755d0"
 
 # Environment variables
 [vars]
